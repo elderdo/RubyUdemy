@@ -7,3 +7,5 @@ p "One more"
 print "whatever"
 
 puts " some more stuff"
+
+pluts "this is an error"
