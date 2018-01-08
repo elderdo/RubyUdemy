@@ -11,3 +11,5 @@ class User
     "posts method"
   end
 end
+
+User.all_users
