@@ -10,6 +10,10 @@ class User
   def posts
     "posts method"
   end
+
+  def account
+    "account method"
+  end
 end
 
 p User.all_users
