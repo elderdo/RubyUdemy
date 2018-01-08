@@ -12,4 +12,4 @@ class User
   end
 end
 
-User.all_users
+p User.all_users
