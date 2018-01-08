@@ -12,7 +12,7 @@ class User
   end
 
   def account
-    "account method"
+    ["balance","name" ]
   end
 end
 
@@ -20,3 +20,8 @@ p User.all_users
 
 user = User.new
 p user.account
+p user.account.size
+p user.account.first
+p user.account.last
+p user.posts
+p user.profile
