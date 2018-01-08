@@ -17,3 +17,6 @@ class User
 end
 
 p User.all_users
+
+user = User.new
+p user.account
